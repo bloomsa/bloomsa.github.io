@@ -27,9 +27,22 @@ paginate     = 10
   enableThemeToggle = true
 
   # Metadata mostly used in document's head
-  description = "My homepage"
+  description = "My website"
   keywords = "homepage, blog"
   images = [""]
+
+  # Social Icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/bloomsa"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sam-bloomquist-287339157/"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:bloomquist.sam@gmail.com"
 
 [taxonomies]
     category = "blog"
@@ -44,7 +57,7 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+    subtitle  = "Sam Bloomquist's website"
 
     [languages.en.params.logo]
       logoText = "bloomsa"

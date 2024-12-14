@@ -2,3 +2,6 @@
 /public/
 /resources/_gen/
 .hugo_build.lock
+
+# Local files
+todo.md
