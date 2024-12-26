@@ -43,6 +43,10 @@ paginate     = 10
   [[params.social]]
     name = "email"
     url = "mailto:bloomquist.sam@gmail.com"
+  
+  [[params.social]]
+    name = "jupyter"
+    url = "/jupyterlite/index.html"
 
 [taxonomies]
     category = "blog"
@@ -62,10 +66,6 @@ paginate     = 10
     [languages.en.params.logo]
       logoText = "bloomsa"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
   # And you can even create generic menu
   [[menu.main]]
