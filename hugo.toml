@@ -4,6 +4,34 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[pagination]
+  disableAliases = false
+  pagerSize = 20
+  path = 'page'
+
+[permalinks]
+  blog = "/blog/:year/:month/:title/"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
