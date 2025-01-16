@@ -1,10 +1,16 @@
 ---
 title: Publishing a Hugo Static Site with GitHub Pages
 description: ""
-date: 2024-12-27T19:37:29.523Z
+date: 2025-01-16T03:12:47.908Z
 preview: ""
-draft: true
-tags: []
+draft: false
+tags:
+    - deployment automation
+    - GitHub Actions
+    - GitHub Pages
+    - Hugo
+    - personal website
+    - static site generation
 categories: []
 slug: publishing-hugo-static-site-github-pages
 fmContentType: blog
