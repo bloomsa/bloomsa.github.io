@@ -30,7 +30,7 @@ disableHugoGeneratorInject = false
   path = 'page'
 
 [permalinks]
-  blog = "/blog/:year/:month/:title/"
+  blog = "/posts/:year/:month/:title/"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -102,6 +102,6 @@ disableHugoGeneratorInject = false
     url        = "/about"
 
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/blog"
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
