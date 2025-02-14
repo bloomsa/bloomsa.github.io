@@ -3,7 +3,7 @@ title: macOS open command
 description: ""
 date: 2025-02-14T01:08:07.488Z
 preview: ""
-draft: true
+draft: false
 tags:
     - command line
     - Finder
