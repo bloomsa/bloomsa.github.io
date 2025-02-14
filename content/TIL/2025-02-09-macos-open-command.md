@@ -12,7 +12,6 @@ tags:
 categories: []
 fmContentType: til
 ---
-# Open Anything from your Terminal
 
 macOS has a neat program for opening files, directories, and urls from the command line.
 
